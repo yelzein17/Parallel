@@ -50,7 +50,7 @@ jobs:
       - run: |
           npx testmo automation:run:create \
             --instance "$TESTMO_URL" \
-            --project-id 1 \
+            --project-id 4 \
             --name "Parallel mocha test run" \
             --resources resources.json \
             --source "unit-tests" > testmo-run-id.txt
